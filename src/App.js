@@ -13,14 +13,14 @@ function App() {
     <Router>
     <div>
       <Header />
-      <div className='container'>
+      <main>
+  
         <Routes>
           <Route path='/' element={<About/>}/>
           <Route path='/resume' element={<Resume/>} />
           <Route path='/contact' element={<Contact/>} />
         </Routes>
-      </div>
-      <main>
+      
         <Footer></Footer>
       </main>
     </div>
