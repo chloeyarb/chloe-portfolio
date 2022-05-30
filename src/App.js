@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Portfolio from './components/Portfolio';
 // import Resume from './components/Resume';
 
@@ -16,6 +16,7 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path='/' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
       </div>
       <main>
