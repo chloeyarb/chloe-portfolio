@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Contact from './components/Contact';
 // import Portfolio from './components/Portfolio';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path='/' element={<About/>}/>
+          <Route path='/resume' element={<Resume/>} />
           <Route path='/contact' element={<Contact/>} />
         </Routes>
       </div>
