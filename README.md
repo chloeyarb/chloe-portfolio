@@ -23,6 +23,7 @@ Feel free to take a peak and get to know a little bit about me!
 
 ## Built With
 
+* Javascript
 * React/ React Router
 * Bootstrap
 * CSS
