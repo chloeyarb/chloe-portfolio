@@ -73,8 +73,8 @@ header h1 {
 }
 
 /* RESUME */
-#resume-header{
-  font-size: 60px;
+#resume-header, #contact-header{
+  font-size: 50px;
   padding-bottom: 15px;
 
 }
@@ -89,10 +89,22 @@ header h1 {
   position: relative;
 }
 
+/*CONTACT*/
+form {
+  padding-left: 40%;
+  align-items: center;
+}
+#contact-form {
+  color: var(--tertiary-color);
+}
+/* FOOTER */
 .footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+#button {
+  background-color: #ff6c6a;
 }
 
 /* code {

@@ -35,26 +35,28 @@ function Contact() {
     //DOM elements in contact form using JSX.
     return (
         <section>
-            <h1>Contact Me</h1>
+            <h1 id='contact-header' className='text-center text-white'>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className='form-group col-md-5'>
                     <label htmlFor="name">Name: </label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <input className="form-control" type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder='Your Name' />
                 </div>
-                <div>
+                <div className='form-group col-md-5'>
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email"/>
+                    <input className="form-control" type="email" defaultValue={email} onBlur={handleChange} name="email" placeholder='Your Email'/>
                 </div>
-                <div>
+                <div className='form-group col-md-5'>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5"/>
+                    <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="5" placeholder='Type message'/>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <div >
+                <button className="btn" type="submit" id="button">Submit</button>
+                </div>
             </form>
         </section>
     )
