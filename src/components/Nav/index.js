@@ -5,11 +5,11 @@ function Nav() {
     return (
         <header>
             <Link to='/'>
-                <h2> Chloe Yarborough </h2>
+                <h2 className='text-white'> Chloe Yarborough </h2>
             </Link>
-            <nav>
-                <ul className='list-section'>
-                    <li>
+            <nav className='nav-section'>
+                <ul className='text-white'>
+                    <li className='text-white'>
                         <Link to='/'> About Me </Link>
                     </li>
                     <li>

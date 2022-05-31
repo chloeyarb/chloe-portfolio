@@ -7,7 +7,7 @@ function Header () {
         <header>
             <Nav />
             <div className='hero'>
-            <img src={Banner} alt="" style={{ width: '30%'}}/>
+            <img src={Banner} alt=""/>
             </div>
         </header>
 
