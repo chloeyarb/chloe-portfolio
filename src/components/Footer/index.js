@@ -16,6 +16,11 @@ function Footer() {
                         <img src={LI} alt='linked in logo' style={{width: '5%'}} />
                     </a>
                 </p>
+                <p>
+                    <a href="https://stackoverflow.com/users/17597428/chloe-yarborough?tab=profile">
+                
+                    </a>
+                </p>
             </div>
         </footer>
     )

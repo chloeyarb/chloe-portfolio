@@ -13,6 +13,9 @@ function Nav() {
                         <Link to='/'> About Me </Link>
                     </li>
                     <li>
+                        <Link to='/portfolio'> Portfolio </Link>
+                    </li>
+                    <li>
                         <Link to='/resume'>Resume</Link>
                     </li>
                     <li>
