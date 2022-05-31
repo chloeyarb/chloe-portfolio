@@ -3,23 +3,23 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <header className='nav-header'>
-            <Link to='/'>
-                <h2 className='text-white'> Chloe Yarborough </h2>
+        <header >
+            <Link to='/' id='nav-header'>
+                <h2 className='text-white' > Chloe Yarborough </h2>
             </Link>
             <nav className='nav-section'>
                 <ul>
                     <li>
-                        <Link to='/'> About Me </Link>
+                        <Link id='nav-title' to='/'> About Me </Link>
                     </li>
                     <li>
-                        <Link to='/portfolio'> Portfolio </Link>
+                        <Link id='nav-title' to='/portfolio'> Portfolio </Link>
                     </li>
                     <li>
-                        <Link to='/resume'>Resume</Link>
+                        <Link id='nav-title' to='/resume'>Resume</Link>
                     </li>
                     <li>
-                        <Link to='/contact'>Contact </Link>
+                        <Link id='nav-title' to='/contact'>Contact </Link>
                     </li>
                 </ul>
             </nav>
