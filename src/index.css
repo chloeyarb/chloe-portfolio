@@ -18,10 +18,12 @@ header {
   flex-wrap: wrap;
   z-index: 9999;
   color: var(--tertiary-color);
+  position: sticky;
 }
 
 .nav-section {
   margin: 7px 0;
+  position: sticky;
 }
 #nav-header {
   text-decoration: none;
@@ -55,7 +57,7 @@ header {
   display: flex;
   position: relative; 
   width: 100vw; 
-  height: 35vh;
+  height: 55vh;
 }
 #about-section {
   padding-top: 25px;

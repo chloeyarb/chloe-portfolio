@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <header >
+        <header>
             <Link to='/' id='nav-header'>
                 <h2 className='text-white' > Chloe Yarborough </h2>
             </Link>

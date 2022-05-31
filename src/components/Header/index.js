@@ -4,12 +4,12 @@ import Banner from '../../assets/images/Portfolio Banner.png';
 
 function Header () {
     return (
-        <header>
+        <div>
             <Nav />
             <div className='hero'>
             <img src={Banner} alt=""/>
             </div>
-        </header>
+        </div>
 
     );
 }
