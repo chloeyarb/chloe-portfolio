@@ -7,6 +7,7 @@ function About() {
         <section id="about-section">
             <div>
                 <h1 id="about" className='text-light text-center pt-20 font-weight-bold'>Welcome!</h1>
+                <h2 className='text-center'> I code stuff.</h2>
             </div>
             <div className='text-center'>
                 <img src={Avatar} alt="personal avi" id="emoji" />

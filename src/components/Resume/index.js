@@ -3,36 +3,36 @@ import React from 'react';
 function Resume() {
     return (
         <section>
-            <h2> Check out my resume!</h2>
+            <h2 id='resume-header' className='text-center text-white'> Resume</h2>
 
-            <div class='resume-section'>
+            <div id='resume-list' className='text-center text-light'>
                 <h3>Front-End Proficiencies</h3>
-                <ol>
+                <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
                     <li>React</li>
                     <li>Bootstrap</li>
-                </ol>
+                </ul>
                 <br></br>
                 <h3>Back-End Proficiencies</h3>
-                <ol>
+                <ul>
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>API's</li>
                     <li>REST</li>
                     <li>MVC</li>
-                </ol>
+                </ul>
                 <br></br>
                 <h3>Database Proficiencies</h3>
-                <ol>
+                <ul>
                     <li>MongoDB</li>
                     <li>MySQL</li>
                     <li>Sequelize</li>
                     <li>GraphQl</li>
                     <li>Mongoose</li>
                     <li>NoSQL</li>
-                </ol>
+                </ul>
             </div>
         </section>
     )
