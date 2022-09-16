@@ -36,6 +36,7 @@ function Contact() {
     return (
         <section>
             <h1 id='contact-header' className='text-center text-white'>Contact Me</h1>
+            <h3 id='email' className='text-center'>cmyarboro@gmail.com</h3>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='form-group col-md-5'>
                     <label htmlFor="name">Name: </label>

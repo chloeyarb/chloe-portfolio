@@ -82,10 +82,19 @@ header {
 
 /* RESUME */
 #resume-header, #contact-header, #port-header {
-  font-size: 50px;
-  padding-bottom: 15px;
-
+  font-size: 30px;
+  padding-bottom: 5px;  
 }
+#resume-link {
+  text-decoration: none;
+}
+button {
+  background-color: #ff6c6a;
+  display: inline-block;
+}
+/* #resume-link:hover {
+  background-color: #ff6c6a;
+} */
 #resume-list h3 {
   margin-top: 10px;
   color: var(--secondary-color);
@@ -103,6 +112,10 @@ header {
 }
 
 /*CONTACT*/
+#email {
+  color: #ff6c6a;
+  font-size: 20px;
+}
 form {
   padding-left: 40%;
   align-items: center;

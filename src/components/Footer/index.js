@@ -5,7 +5,7 @@ import GH from '../../assets/images/GitHub-Mark.png';
 function Footer() {
     return (
         <footer className='footer text-center'>
-            <div>
+            <div >
                 <p>
                     <a href="https://github.com/">
                         <img src={GH} alt='git logo' style={{ width: '70%' }} />
