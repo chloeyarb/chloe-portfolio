@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chloe-portfolio/static/css/main.7dd9b46e.css",
-    "main.js": "/chloe-portfolio/static/js/main.203499bd.js",
+    "main.css": "/chloe-portfolio/static/css/main.4f2884f2.css",
+    "main.js": "/chloe-portfolio/static/js/main.97a0822f.js",
     "static/js/787.7dabb874.chunk.js": "/chloe-portfolio/static/js/787.7dabb874.chunk.js",
     "static/media/Portfolio Banner.png": "/chloe-portfolio/static/media/Portfolio Banner.fdeaa2612f2f81e055a3.png",
     "static/media/Avatar.png": "/chloe-portfolio/static/media/Avatar.82421c7aa74e1336d20a.png",
     "static/media/LI.png": "/chloe-portfolio/static/media/LI.a95afc06831647f5fca2.png",
     "index.html": "/chloe-portfolio/index.html",
-    "main.7dd9b46e.css.map": "/chloe-portfolio/static/css/main.7dd9b46e.css.map",
-    "main.203499bd.js.map": "/chloe-portfolio/static/js/main.203499bd.js.map",
+    "main.4f2884f2.css.map": "/chloe-portfolio/static/css/main.4f2884f2.css.map",
+    "main.97a0822f.js.map": "/chloe-portfolio/static/js/main.97a0822f.js.map",
     "787.7dabb874.chunk.js.map": "/chloe-portfolio/static/js/787.7dabb874.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd9b46e.css",
-    "static/js/main.203499bd.js"
+    "static/css/main.4f2884f2.css",
+    "static/js/main.97a0822f.js"
   ]
 }
